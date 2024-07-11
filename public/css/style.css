@@ -1,0 +1,500 @@
+:root {
+    ---main-color: #106eea;
+}
+
+.bar {
+    background-color: #106eea;
+    padding: 3px;
+}
+
+.top-bar {
+    padding: 1px;
+    color: white;
+}
+
+.hi {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.hi:hover {
+    opacity: 1;
+}
+
+p {
+    margin: 0;
+}
+
+.test {
+    color: white;
+    text-decoration: none;
+}
+
+.test:hover {
+    text-decoration-line: underline;
+}
+
+.style {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-item .style li {
+    display: inline;
+}
+
+.nav-item .style li a {
+    display: inline-block;
+    align-items: center;
+}
+
+.nav {
+    padding: 15px;
+}
+
+.active {
+    border-bottom: #106eea solid 2px;
+    color: #106eea;
+    padding: 2px;
+    margin-right: 6px;
+}
+
+.style {
+    margin-bottom: 0;
+}
+
+.dropdown-item:hover {
+    color: #106eea;
+}
+
+.dropdown-item {
+    padding: 8px;
+}
+
+.para {
+    color: gray;
+}
+
+.hero-content {
+    width: 100%;
+    height: 80vh;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/hero-bg.jpg);
+}
+
+.icon {
+    font-size: large;
+    font-weight: 600;
+}
+
+.icon:hover {
+    color: #106eea;
+}
+
+.profile {
+    font-weight: bolder;
+}
+
+.ancr {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#animated {
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+    overflow: hidden;
+    height: 240px;
+}
+
+#animated::before {
+    content: '';
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #106eea;
+    position: absolute;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+#animated:hover::before {
+    height: 100%;
+}
+
+#animated:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+#animated:hover i {
+    color: white;
+}
+
+.ro {
+    cursor: pointer;
+}
+
+.about {
+    background-color: rgba(127, 197, 241, 0.1);
+}
+
+
+.about .about-content ul {
+    list-style: none;
+    padding: 4px;
+}
+
+.about .about-content ul li {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about .about-content ul i {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-right: 15px;
+    border-radius: 50px;
+
+}
+
+.ull {
+    font-weight: 600;
+}
+
+.div {
+    color: #106eea;
+}
+
+.div:hover {
+    color: white;
+}
+
+.font {
+    font-weight: 600;
+}
+
+.head {
+    font-size: small;
+}
+
+.die {
+    background-color: rgb(187, 234, 250, 0.2);
+    border: 0;
+    height: 190px;
+}
+
+.icon-container {
+    position: relative;
+    margin-top: -25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-container i {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font-weight: 100px;
+    justify-content: center;
+    transform: translateX(-50%);
+}
+
+.icon-background {
+    border: 6px solid white;
+    padding: 30px;
+    background-color: #106eea;
+    display: inline-block;
+    border-radius: 45px;
+}
+
+#brand {
+    background-color: rgb(187, 234, 250, 0.2);
+    padding: 4px;
+}
+
+.img-fluid {
+    margin-right: 66px;
+    align-items: center;
+}
+
+.hover:hover {
+    border: 1px solid #106eea;
+    cursor: pointer;
+}
+
+.hover:hover h4 {
+    color: #106eea;
+}
+
+#testimonials {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 490px;
+    margin-bottom: 30px;
+}
+
+.grey {
+    color: rgb(158, 157, 157);
+}
+
+.small {
+    font-size: 20px;
+    color: rgb(131, 129, 129);
+}
+
+.unstyled {
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.unstyled li {
+    margin-bottom: 7px;
+}
+
+.advance {
+    background-color: #106eea;
+    color: #ffffff;
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -70px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+}
+
+.social {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    bottom: 90px;
+    padding: 10px;
+    right: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card:hover .social {
+    opacity: 1;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.text-color {
+    color: rgb(145, 145, 145);
+}
+
+#contact input {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    border-color: black;
+}
+
+#contact textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    border-color: black;
+}
+
+.margin {
+    margin-left: 40px;
+    color: rgb(154, 152, 152);
+}
+
+.send {
+    opacity: 1;
+}
+
+.send:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Subscribe {
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.Subscribe:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.paper p {
+    font-size: 14px;
+}
+
+.paper strong {
+    color: rgb(83, 83, 83);
+}
+
+.right {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.right li {
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.right li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right li i {
+    color: #106eea;
+}
+
+.right li a:hover {
+    color: #106eea;
+}
+
+.flex {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.flex li a i {
+    color: black;
+    font-size: large;
+}
+
+.flex li a i:hover {
+    color: #106eea;
+}
+
+.bootstrap a:hover {
+    color: black;
+}
+
+.bootstrap a {
+    text-decoration: none;
+}
+
+.collapsible {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.collapsible-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+}
+
+.collapsible:hover .collapsible-header {
+    background-color: #ddd;
+}
+
+.inp {
+    border: 0;
+}
+
+.inp:hover {
+    border: 0;
+    border-color: none;
+}
+
+.card-h h4 {
+    color: black;
+}
+
+.card-h:hover h4,
+i {
+    color: #ffffff;
+}
+
+.card-h:hover {
+    background-color: #106eea;
+    color: #ffffff;
+}
+
+.card-b {
+    background-color: #106eea;
+    color: #ffffff;
+    border: 0ch;
+    border-radius: 2px;
+}
+
+.an {
+    border: 0ch;
+    text-decoration: none;
+}
+
+.card-h[area-extends="true"] {
+    background-color: #106eea;
+    color: #ffffff;
+}
+
+.mm:hover {
+    background-color: #106eea;
+    color: white;
+}
+
+.mmm {
+    background-color: #106eea;
+    color: white;
+    padding: 13px;
+}
+
+.mm {
+    padding: 6px;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.five:hover {
+    color: white;
+}

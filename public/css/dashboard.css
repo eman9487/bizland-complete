@@ -1,0 +1,23 @@
+.nav-item {
+    min-height: 100vh;
+}
+
+.nav-link {
+    padding: 13px 40px;
+}
+
+.icons {
+    margin-right: 15px;
+}
+
+.aq {
+    margin-top: 320px;
+}
+
+.input {
+    border-radius: 0;
+    border-color: black;
+}
+table, th, td{
+    border: 1px solid black;
+}
